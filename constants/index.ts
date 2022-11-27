@@ -581,5 +581,5 @@ export const abi = [
     type: 'receive',
   },
 ];
-export const NFT_CONTRACT_ADDRESS =
-  process.env.NEXT_PUBLIC_WHITELIST_CONTRACT_ADDRESS;
+export const NFT_CONTRACT_ADDRESS = process.env
+  .NEXT_PUBLIC_WHITELIST_CONTRACT_ADDRESS as string;
